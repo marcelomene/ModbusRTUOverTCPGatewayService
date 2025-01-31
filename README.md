@@ -1,3 +1,5 @@
+# ModbusRTUOverTCPGatewayService
+
 Um serviço desktop para Windows que se conecta a um dispositivo ModbusRTU via porta serial e disponibiliza uma interface para que diversos processos possam ler e escrever dados no dispositivo Modbus.
 
 O objetivo é tornar um dispositivo ModbusRTU, que opera exclusivamente no modelo Master-Slave, acessível via Ethernet para múltiplos consumidores. Essencialmente, o serviço converte a comunicação para ModbusRTU over TCP, permitindo que o dispositivo seja acessado por vários mestres simultaneamente.
